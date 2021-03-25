@@ -1,14 +1,10 @@
 import React from "react";
-import FunctionalClickCounter from "./components/FunctionalClickCounter";
-import ClassClickCounter from './components/ClassClickCounter';
-
+import StateExample from './components/StateExample';
 
 function App() {
   return (
     <div>
-      <ClassClickCounter initialValue={6} />
-      <ClassClickCounter initialValue={10} />
-      <ClassClickCounter initialValue={4} />
+      <StateExample />
     </div>
   );
 }
